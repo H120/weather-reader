@@ -1,0 +1,25 @@
+.div{
+}
+.newDiv{
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.temp{
+    font-size: 12px;
+}
+.temp b{
+    font-size: 28px;
+}
+.humidity{
+    text-align: center;
+    direction: rtl;
+}
