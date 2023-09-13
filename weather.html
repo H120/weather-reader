@@ -7,13 +7,18 @@
     <title>Weather</title>
 </head>
 <body>
-    
-    <input id="input_text" type="text">
-    <button id="search_button">Search</button>
-    <h1 id="cityName"></h1>
-    <p id="cityLocation"></p>
-    <p id="datePer"></p>
-    <p id="dateEn"></p>
+    <img id="moon_button" src="./icons/moon.svg">
+    <div id="search_div">
+        <input id="input_text" type="text" placeholder="Search here ...">
+        <img id="search_button" src="./icons/seacrh.png"/>
+    </div>
+    <div id="detail_div">
+        <h1 id="cityName">Tehran, Iran</h1>
+        <p id="cityLocation">3.562, 4.2365</p>
+        <p id="datePer"></p>
+        <p id="dateEn"></p>
+    </div>
+
     <div id="div"></div>
 
     <script src="./weather.js"></script>

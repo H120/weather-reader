@@ -1,25 +1,106 @@
-.div{
+body{
+    color: #F9F9F9;
+}
+#div{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: auto;
+}
+#moon_button{
+    position: fixed;
+    top: 30px;
+    right: 30px;
 }
 .newDiv{
-    border: 1px solid rgb(176, 176, 176);
-    border-radius: 20px;
-    width: 300px;
+    background: linear-gradient(105deg, #799DE2 26.84%, #90B1F0 98.07%);
+    border: none;
+    border-radius: 40px;
+    min-width: 450px;
+    height: 350;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 15px;
     cursor: pointer;
+    position: relative;
 }
-
+.icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    top: 20px;
+}
 .temp{
-    font-size: 12px;
+    font-size: 25px;
+    margin-top: 80px;
 }
 .temp b{
-    font-size: 28px;
+    font-size: 40px;
 }
 .humidity{
     text-align: center;
     direction: rtl;
+}
+#search_div{
+    width: fit-content;
+    margin: auto;
+    margin-top: 65px;
+}
+#input_text{
+    border: none;
+    border-radius: 40px;
+    background-color: #E9EEF5;
+    color: #373737;
+    height: 50px;
+    width: 550px;
+    margin: auto;
+    font-size: 32px;
+    padding: 10px;
+}
+
+#search_button{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: auto;
+    cursor: pointer;
+}
+
+#detail_div{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#cityName{
+    font-size: 60px;
+    color: #373737;
+    margin: auto;
+}
+
+#cityLocation{
+    font-size: 20px;
+    color: #373737;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+
+#datePer{
+    font-size: 20px;
+    color: #373737;
+}
+
+#dateEn{
+    font-size: 20px;
+    color: #373737;
 }

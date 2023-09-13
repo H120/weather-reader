@@ -49,7 +49,7 @@ function setDetail(element){
 
     let newIcon= document.createElement('img');
     newIcon.id= element.id;
-    newIcon.className= "Icon";
+    newIcon.className= "icon";
     switch(element.icon){
         case "rain":
             newIcon.src= "./icons/rain.gif";
