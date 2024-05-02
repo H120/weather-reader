@@ -19,7 +19,7 @@ body{
     border: none;
     border-radius: 40px;
     min-width: 450px;
-    height: 350;
+    height: 200;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +92,7 @@ body{
     color: #373737;
     position: absolute;
     right: 0;
-    bottom: 50px;
+    bottom: 90px;
 }
 
 #datePer{
